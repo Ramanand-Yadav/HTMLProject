@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div class="form-content">
+    <div class="form-group has-feedback">
+       
+    <div><input type="text" id="name" name="name" placeholder="Your Name" autocomplete="off" class="form-control" data-bv-field="name"><i class="form-control-feedback bv-no-label" data-bv-icon-for="name" style="display: none;"></i></div>
+    <small class="help-block" data-bv-validator="notEmpty" data-bv-for="name" data-bv-result="NOT_VALIDATED" style="display: none;">The name is required</small></div>
+     <div class="form-group has-feedback">
+       
+        <div><input id="contactno" name="contactno" placeholder="Contact No" autocomplete="off" class="form-control" data-bv-field="contactno"><i class="form-control-feedback bv-no-label" data-bv-icon-for="contactno" style="display: none;"></i></div>
+    <small class="help-block" data-bv-validator="notEmpty" data-bv-for="contactno" data-bv-result="NOT_VALIDATED" style="display: none;">The phone number is required</small><small class="help-block" data-bv-validator="phone" data-bv-for="contactno" data-bv-result="NOT_VALIDATED" style="display: none;">The phone number is not valid</small></div>
+    <div class="form-group has-feedback">
+        
+        <div><input type="text" name="email" placeholder="Your Email" autocomplete="off" class="form-control" data-bv-field="email"><i class="form-control-feedback bv-no-label" data-bv-icon-for="email" style="display: none;"></i></div>
+    <small class="help-block" data-bv-validator="notEmpty" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">The email is required</small><small class="help-block" data-bv-validator="emailAddress" data-bv-for="email" data-bv-result="NOT_VALIDATED" style="display: none;">The input is not a valid email address</small></div>
+  
+    <div class="form-group">
+       
+        <div>
+
+            <select id="query-type" name="query_type" class="form-control selectpicker">
+                <option>Select Cource</option>
+            <optgroup label="Under Graduate Courses">
+                <option value="B.A. Hon. (Vidyalankar &amp; Vedalankar)">B.A. Hon. (Vidyalankar &amp; Vedalankar)</option>
+                <option value="Bachelor of Arts (B.A.)">Bachelor of Arts (B.A.)</option>
+                <option value="Bachelor of Physical Education and Sports (BPES)">Bachelor of Physical Education and Sports (BPES)</option>
+                <option value="Bachelor of Physical Education (B.P.Ed.)">Bachelor of Physical Education (B.P.Ed.)</option>
+                <option value="Bachelor of Science (Maths &amp; Science Group) (B.Sc.)">Bachelor of Science (Maths &amp; Science Group) (B.Sc.)</option>
+                <option value="Bachelor of Pharmacy (B.Pharma)">Bachelor of Pharmacy (B.Pharma)</option>
+                <option value="Bachelor in Business Administration (BBA)">Bachelor in Business Administration (BBA)</option>
+                <option value="Bachelor of Engineering &amp; Technology (B.Tech.)">Bachelor of Engineering &amp; Technology (B.Tech.)</option>
+            </optgroup>
+            <optgroup label="Post Graduate Courses">
+                <option value="M.A. Sanskrit">M.A. Sanskrit</option>
+                <option value="M.A. English">M.A. English</option>
+                <option value="M.A. Psychology">M.A. Psychology</option>
+                <option value="M.A. Yoga">M.A. Yoga</option>
+                <option value="M.A. History">M.A. History</option>
+                <option value="M.A. Hindi">M.A. Hindi</option>
+                <option value="M.A. Philosophy">M.A. Philosophy</option>
+                <option value="M.A. Veda">M.A. Veda</option>
+                <option value="M.A. Vedic Karmakand and Jyotish">M.A. Vedic Karmakand and Jyotish</option>
+                <option value="M.Sc. Mathematics">M.Sc. Mathematics</option>
+                <option value="M.Sc. Physics">M.Sc. Physics</option>
+                <option value="M.Sc. Chemistry">M.Sc. Chemistry</option>
+                <option value="M.Sc. Microbiology">M.Sc. Microbiology</option>
+                <option value="M.Sc. Environmental Science">M.Sc. Environmental Science</option>
+                <option value="M.C.A.">M.C.A.</option>
+                <option value="M.B.A.">M.B.A.</option>
+                <option value="M.B.E.">M.B.E.</option>
+                <option value="M.B.F.">M.B.F.</option>
+            </optgroup>
+            <optgroup label="Doctor of Philosophy Courses">
+                <option value="Ancient Indian History Culture and Archaeology">Ancient Indian History Culture and Archaeology</option>
+                <option value="Botany">Botany</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="English">English</option>
+                <option value="Environmental Science">Environmental Science</option>
+                <option value="Hindi Literature">Hindi Literature</option>
+                <option value="Management">Management</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Microbiology">Microbiology</option>
+                <option value="Philosophy">Philosophy</option>
+                <option value="Physics">Physics</option>
+                <option value="Psychology">Psychology</option>
+                <option value="Sanskrit Literature">Sanskrit Literature</option>
+                <option value="Vedic Literature">Vedic Literature</option>
+                <option value="Zoology">Zoology</option>
+            </optgroup>
+            <optgroup label="Diploma/Certificate Courses">
+                <option value="P.G. Diploma in Hindi Journalism">P.G. Diploma in Hindi Journalism</option>
+                <option value="P.G. Diploma in Yogic Science">P.G. Diploma in Yogic Science</option>
+                <option value="Certificate Course in Yoga">Certificate Course in Yoga</option>
+                <option value="Certificate Course in Art and Happiness">Certificate Course in Art and Happiness</option>
+                <option value="Certificate Course in Salse Mangement">Certificate Course in Salse Mangement</option>
+            </optgroup>
+            <optgroup label="Research Activities Courses">
+                <option value="Papers Indexed in Scopus">Papers Indexed in Scopus</option>
+                <option value="Books Published">Books Published</option>
+                <option value="Resreach Projects Sanctioned to Vishwavidyalaya by Govt. Agencies">Resreach Projects Sanctioned to Vishwavidyalaya by Govt. Agencies</option>
+                <option value="Number of Ph.D Enrolled / Awarded">Number of Ph.D Enrolled / Awarded</option>
+                <option value="Details of Publication">Details of Publication</option>
+                <option value="Faculty of Technology Publication Details">Faculty of Technology Publication Details</option>
+                <option value="Faculty of Auyrveda and Medical Sciences Publication Details">Faculty of Auyrveda and Medical Sciences Publication Details</option>
+                <option value="Faculty of Engineering &amp; Technology Publication Details">Faculty of Engineering &amp; Technology Publication Details</option>
+                <option value="Faculty of Management Studies Publication Details">Faculty of Management Studies Publication Details</option>
+                <option value="Faculty of Humanities Publication Details">Faculty of Humanities Publication Details</option>
+                <option value="Faculty of Life Sciences Publication Details">Faculty of Life Sciences Publication Details</option>
+                <option value="Faculty of Science Publication Details">Faculty of Science Publication Details</option>
+                <option value="Faculty of Oriental Studies Publication Details">Faculty of Oriental Studies Publication Details</option>
+                <option value="Kanya Gurukul Campus Dehradun Publication Details">Kanya Gurukul Campus Dehradun Publication Details</option>
+                <option value="Kanya Gurukul Campus Haridwar Publication Details">Kanya Gurukul Campus Haridwar Publication Details</option>
+            </optgroup>
+            </select>
+        </div>
+    </div>
+    <div class="form-group has-feedback">
+        
+        <div><input type="text" name="city" placeholder="city" autocomplete="off" class="form-control" data-bv-field="city"><i class="form-control-feedback bv-no-label" data-bv-icon-for="city" style="display: none;"></i></div>
+    <small class="help-block" data-bv-validator="notEmpty" data-bv-for="city" data-bv-result="NOT_VALIDATED" style="display: none;">The city is required</small></div>
+    <div class="form-group">
+      <div><textarea class="form-control" col="3" row="5" name="query_box"></textarea></div>
+    </div>
+    <div class="form-group">
+          <input type="hidden" name="action" value="enquery_form">
+        <div><button class="btn-submit" type="submit">Send</button></div>
+    </div>
+</div>
+</body>
+</html>
